@@ -1,7 +1,7 @@
 {
   "name": "urlshort",
   "version": "1.0.0",
-  "description": "",
+  "description": "Url Shortener",
   "main": "app.js",
   "dependencies": {
     "express": "^4.15.3",
@@ -14,5 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelxiaowang/urlshort.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelxiaowang/urlshort/issues"
+  },
+  "homepage": "https://github.com/michaelxiaowang/urlshort#readme"
 }

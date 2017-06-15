@@ -2,15 +2,19 @@
 <html>
 <head>
 	<title>urlshort</title>
-	<script src = "./js/script.js"></script>
-	<script src = "/socket.io/socket.io.js"></script>
 </head>
 <body>
 	<h1>Welcome to UrlShort</h1>
 	<h3>Enter a url to shorten</h3>
-	<form action = "/" method = "post">
-		<input type = "text" name = "url">
+	<form id = "urlform">
+		<input id = "urlbox" type = "text" name = "url">
 		<input type = "submit" value = "Submit">
 	</form>
+	<p>Your new url is: <b id="newUrl"></b></p>
+
+	<!--Scripts-->
+	<script src = "http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src = "/socket.io/socket.io.js"></script>
+	<script src = "./js/script.js"></script>
 </body>
 </html>
